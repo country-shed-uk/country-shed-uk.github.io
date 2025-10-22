@@ -1,14 +1,14 @@
 title: The Country Shed UK
 description: Faceless UK guides to farming tools, country gear and country wear.
 baseurl: ""
-url: "https://YOUR_USERNAME.github.io"
+url: "https://country-shed-uk.github.io"
 theme: minima
-author: Country Shed Team
+author: The Country Shed Team
 plugins:
   - jekyll-feed
 
 # Affiliate settings
-amazon_tag: YOUR_AMAZON_TAG  # e.g. yourtag-21
+amazon_tag: countrysheduk-21
 currency: "£"
 
 # Build settings
