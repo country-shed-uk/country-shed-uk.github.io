@@ -7,8 +7,10 @@ CONFIG_PATH = PROJECT_ROOT / "_config.yml"
 TOPIC_PATH  = PROJECT_ROOT / "scripts" / "topics.json"
 POSTS_DIR   = PROJECT_ROOT / "_posts"
 
-AMAZON_TAG = "YOUR_AMAZON_TAG"
+AMAZON_TAG = "countrysheduk-21"
 CURRENCY = "£"
+
+# Try reading from _config.yml (optional)
 try:
     for line in open(CONFIG_PATH, encoding="utf-8"):
         if line.strip().startswith("amazon_tag:"):
@@ -30,11 +32,10 @@ def affiliate_link(search_term: str) -> str:
     return f"https://www.amazon.co.uk/s?k={q}&tag={AMAZON_TAG}"
 
 def price_range_placeholder():
-    # Just a sane placeholder; you can later wire to APIs if desired
     bands = [
-        (f"{CURRENCY}20-{CURRENCY}40","Budget"),
-        (f"{CURRENCY}40-{CURRENCY}80","Mid-range"),
-        (f"{CURRENCY}80+","Premium"),
+        (f"{CURRENCY}20-{CURRENCY}40", "Budget"),
+        (f"{CURRENCY}40-{CURRENCY}80", "Mid-range"),
+        (f"{CURRENCY}80+", "Premium"),
     ]
     return random.choice(bands)
 
@@ -44,7 +45,8 @@ title: "{title}"
 categories: [{category}]
 ---
 
-If you work on farms or enjoy country life in the UK, finding reliable {keyword} matters. This faceless guide gives you straightforward, UK-focused buying advice with zero fluff.
+If you work on farms or enjoy country life in the UK, finding reliable {keyword} matters.
+This faceless guide gives you straightforward, UK-focused buying advice with zero fluff.
 
 ## Top Picks (at a glance)
 

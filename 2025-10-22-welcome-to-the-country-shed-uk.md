@@ -4,10 +4,8 @@ title: "Welcome to The Country Shed UK"
 categories: [guides]
 ---
 
-This faceless site automatically publishes practical buying guides for farming tools, country gear, and country wear in the UK.
+Welcome to **The Country Shed UK** — your faceless source for farming tools, country gear, and country wear in the UK.
 
-- New posts appear weekly (Mondays).
-- Each post includes clear buying advice and easy links to UK availability.
-- No accounts, no face, no ongoing work required.
+This site automatically publishes practical buying guides on a schedule. Each article contains clear buying advice and UK product links.
 
-Explore the categories or check back next Monday for fresh picks.
+Check back each Monday morning for new posts, or follow our categories for the latest.
